@@ -170,13 +170,9 @@ img{
 
 .boxes a:hover{
     background:rgb(138, 131, 131);
-     color:#fff;
-    
+     color:#fff;   
 }
 
-img{
-    max-width: 100%; /*gör att bilder stannar innanför container*/
-}
 
 .wrapper{
     display:grid;
@@ -196,26 +192,21 @@ img{
 .fa {
   padding:10px;
     font-size: 15px;
-    width: 40px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
     float: right;
     margin-right:10px;
     position: relative;
     top:2px;
-    border-radius:90%;
+    border-radius:80%;
     background: #ccc;
-    color: rgb(57, 57, 57);
-    
+    color: rgb(57, 57, 57);  
   }
-  
   
   .fa:hover {
     background:rgb(174, 173, 173)
   }
-
-
-
 
 /*Navigering*/
 .main-nav {
@@ -224,6 +215,7 @@ img{
     display:flex;
     justify-content: center;
 }
+
 .main-nav ul{
     display:grid;
     grid-gap:50px;
@@ -235,11 +227,10 @@ img{
 .main-nav a{
 display:block;
 text-decoration: none;
-padding:0.3rem; 
+padding:1.3rem; 
 text-align: center;
 color:rgb(255, 255, 255);
-font-size: 1.0rem;
-
+font-size: 1.2em;
 }
 
 .main-nav a:hover{
@@ -247,52 +238,44 @@ background:rgb(103, 101, 101);
 color:#fff;
 }
 
+
+
 .top-container{
-    display:grid;
-    grid-gap:20px;
-    grid-template-areas:
-    'head-section-index head-section-index'
-    'head-section-index head-section-index';
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+  'head-section head-section head-section ' 
 }
 
 .head-section-index{
-    grid-area:head-section-index;
-    min-height:400px;
-    background-color:#ccc;;
-    background: url(https://images.pexels.com/photos/3082789/pexels-photo-3082789.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
-    background-size: cover;
-    background-position: center;
-    padding:3rem;
-    display:flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: flex-start;
-    
+  grid-area: head-section;
+  min-height: 400px; 
+  background: url(https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+  display:flex; 
+  flex-direction: column;
+  align-items: start;
+  justify-content:flex-end;
+  box-shadow:0 1px 5px rgb(104,104.104,0.8);
 }
 
-
-.head-section-index h1{
-    font-size: 5rem;
-    margin-bottom: 0;
-    color:rgb(255, 255, 255);
+.head-section-index h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+  color: rgb(255, 255, 255);
 }
-
 .head-section-index p{
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-top: 0;
-    color:rgb(255, 255, 255);
+font-size: 2.3rem;
+margin-top: 0;
+color:rgb(255, 255, 255);
 }
-
-
 
 .boxes{
     display:grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
-    
-    
-
 }
 
 .box{
@@ -301,13 +284,12 @@ color:#fff;
     margin:20px;
    padding:1.5rem 2rem;
    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-
 }
+
 .box h1{
     text-align: center;
     margin:20px;
-   padding:1.5rem 2rem;
-   
+   padding:1.5rem 2rem;  
 }
 
 .box .btn{
@@ -342,24 +324,22 @@ footer a{
     text-align: center;
     padding: 1rem;
 }
-footer a:hover{
-    background:rgb(123, 102, 102);
-    
- }
 
+footer a:hover{
+    background:rgb(123, 102, 102); 
+}
 
 
 footer table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
-  td, th{
-    
-    text-align: left;
-    padding: 8px;
-  }
+td, th{
+  text-align: left;
+ padding: 8px;
+}
 
 
   
@@ -373,20 +353,19 @@ footer table {
     grid-gap:30px;
     grid-template-columns: repeat(1,1fr);
     background:rgb(215, 213, 213);
-    
     padding:3rem;
     text-align: left;
 }
 
 .info-omoss2{
-  display:grid;
+ display:grid;
   grid-gap:30px;
   grid-template-columns: repeat(1,1fr);
-  background:rgb(215, 213, 213);
-  
+  background:rgb(215, 213, 213); 
   padding:3rem;
   text-align: left;
 }
+
 .info-omoss h2{
     display:grid;
     font-size:3em;
@@ -402,8 +381,6 @@ footer table {
  /*Om oss sidan klar ovanför*/
 
  /*start kontaktsida*/
-
-
  .box-kontakt{
     background:rgba(255, 255, 255, 0.954);
     min-width: 100px;
@@ -411,7 +388,6 @@ footer table {
     margin:10px;
    padding: 5rem;
    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-
 }
 
 
@@ -422,23 +398,21 @@ footer table {
 }
 
 .box-kontakt .btn{
-    display:flex;
-    justify-content: center;
-     grid-gap:1px;
-     margin:2px;
-     border-radius:20px;
-    
- }
+  display:flex;
+  justify-content: center;
+  grid-gap:1px;
+  margin:2px;
+  border-radius:20px;
+}
 
 
 
 /* start BOKA BORD*/
 
 .main-info-bokabord h1{
-    font-size: 2em;
-   
-    
+ font-size: 2em;   
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -461,6 +435,7 @@ footer table {
     display: flex;
     margin: 0 0 1rem 0;
   }
+
   label, input {
     width: 70%;
     padding: 0.5rem;
@@ -508,7 +483,6 @@ footer table {
 }
 
 
-
 .info-kaffe{
     display:grid;
     font-size: 15px;
@@ -518,7 +492,6 @@ footer table {
     background:rgb(215, 213, 213);
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     padding:3rem;
-  
 }
 
 .info-kaffe h2{
@@ -532,29 +505,36 @@ footer table {
 @media (max-width: 700px){
 .top-container{
 grid-template-areas:
-'head-section-index '
-'top-box-a top-box-b';
+'head-section head-section';
 }
-.head-section-index{
-  min-height: auto;
-}
+
 .head-section-index h1{
 font-size:3.5rem;
-color:rgb(255, 255, 255);
 }
 
 .head-section-index p{
-  font-size:1.5rem;
-  color:rgb(255, 255, 255);
+ font-size:1.5rem;
+}
 
-  }
+
+.main-nav a{
+    display:block;
+    border-width: 50px;
+    border: solid grey;
+    text-decoration: none;
+    padding: 1em 2em; 
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+    min-width: 100px;
+
+}
 
 .main-nav{
 border:none;
-background:none;
-        
-       
+background:none;              
 }
+
  /*nav knappar får egen bakgrunf*/
  .main-nav a{
 background:rgb(38, 29, 29);
@@ -576,7 +556,7 @@ margin:auto;
 
 #telefon{
 font-size: 14px;
-    }
+}
 
 #mail{
  font-size: 14px;
@@ -595,8 +575,6 @@ font-size:3.5rem;
   .main-info-bokabord h1{
  font-size: 20px;
 }
-}
-
 
 /*OMOSS*/
 .head-section-omoss{
@@ -607,16 +585,12 @@ min-height: auto;
 /*Media queries*/
 
 @media (max-width: 500px)
-
 {
-  
     .top-container{
    grid-template-areas:
-   'head-section-index'
-   'top-box-a'
-   'top-box-b';
+   'head-section head-section';
     }
-   
+}
 
 }
 
@@ -795,3 +769,4 @@ min-height: auto;
     page-break-after: avoid;
   }
 }
+
