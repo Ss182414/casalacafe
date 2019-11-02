@@ -508,6 +508,7 @@ grid-template-areas:
 'head-section head-section';
 }
 
+
 .head-section-index h1{
 font-size:3.5rem;
 }
@@ -580,6 +581,8 @@ font-size:3.5rem;
 .head-section-omoss{
 min-height: auto;
 }
+
+}
     
 
 /*Media queries*/
@@ -590,9 +593,16 @@ min-height: auto;
    grid-template-areas:
    'head-section head-section';
     }
+.head-section-index{
+ min-width: 130px; 
+ min-height: 200px; 
+ margin-right:15px;
+     
+    }
+	
 }
 
-}
+
 
 
 
