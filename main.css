@@ -481,11 +481,19 @@ td, th{
 
 }
 
-/*mobil meny*/
+
+{
+  margin:0;
+  padding:0;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+  font-size:16px;
+}
 .mobile-menu {
   display:block;
   width:100%;
-background: #211f1a/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
+background: #8aa8bd/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
 line-height: 1.6em;
 font-weight: 400;
 width:100%;
@@ -493,7 +501,7 @@ text-align:center;
 	position: relative;
   margin:0 auto;
 }
-
+/*Strip the ul of padding and list styling*/
 .mobile-menu ul {
 	list-style-type:none;
   margin: 0 auto;
@@ -501,7 +509,7 @@ text-align:center;
   text-align:center;
   width:100%;
   position: absolute;
-  background: #211f1a;
+  background: #8aa8bd;
 }
 
 /*Create a horizontal list with spacing*/
@@ -517,9 +525,9 @@ text-align:center;
 	min-width:140px;
 	text-align: center;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: rgb(255, 255, 255);
+	color: #fff;
   text-transform:uppercase;
-	background:#211f1a;
+	background: #8aa8bd;
 	text-decoration: none;
   margin-left:-5px;
   padding: 10px 0;  
@@ -532,21 +540,21 @@ transition: all 0.4s ease 0s;
 
 /*Hover state for top level links*/
 .mobile-menu li:hover a {
-	color: #8e8e8e;
-  background-color:#f4f4f4;
+	color: #4db3ff;
+  background-color:#ccddee;
 }
 
 /*Style for dropdown links*/
 .mobile-menu li:hover ul a {
 	background: #f3f3f3;
-	color: #0e0e0e;
+	color: #2f3036;
 	height: 40px;
 	line-height: 40px;
 }
 
 /*Hover state for dropdown links*/
 .mobile-menu li:hover .mobile-menu ul a:hover {
-	color: #fefefe;
+	color: #4db3ff;
 }
 
 /*Hide dropdown links until they are needed*/
@@ -572,7 +580,7 @@ transition: all 0.4s ease 0s;
 .mobile-menu .show-menu {
 	text-decoration: none;
 	color: #fff;
-	background:#211f1a;
+	background: #8aa8bd;
 	text-align: center;
 	padding: 10px 15px;
 	display: none;
@@ -593,6 +601,45 @@ transition: all 0.4s ease 0s;
 .mobile-menu input[type=checkbox]:checked ~ #menu{
     display: block;
 }
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 800px){
+  .mobile-menu .lines {
+    border-bottom: 15px double #f8f8f8; 
+    border-top: 5px solid #f8f8f8; 
+    content:"";
+    height: 5px; 
+    width:20px;
+    padding-right:15px;
+  float: right;
+}
+	/*Make dropdown links appear inline*/
+	.mobile-menu ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	.mobile-menu li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	.mobile-menu ul li, .mobile-menu li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.mobile-menu .show-menu {
+		display:block;
+	}
+}
+
+
+
+
+
+
+
+	
 
 
 
@@ -858,39 +905,5 @@ min-height: auto;
 
 
 
-/*Responsive Styles*/
 
-@media screen and (max-width : 800px){
-  .mobile-menu .lines {
-    border-bottom: 10px double #fafafa; 
-    border-top: 5px solid #ffffff; 
-    content:"";
-    height: 20px; 
-    width:30px;
-    padding-right:15px;
-  float: right;
-}
-	/*Make dropdown links appear inline*/
-	.mobile-menu ul {
-    position: static;
-    display:none;
-    background: rgb(238, 236, 236);
-   
-	
-	}
-	/*Create vertical spacing*/
-	.mobile-menu li {
-    margin-bottom: 0px;
-    padding:2px;
-	}
-	/*Make all menu links full width*/
-	.mobile-menu ul li, .mobile-menu li a {
-		width: 100%;
-	}
-	/*Display 'show menu' link*/
-	.mobile-menu .show-menu {
-		display:block;
-	}
-}	
-	
 	
