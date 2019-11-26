@@ -494,6 +494,7 @@ body {
 }
 
 
+
 /*mobil meny*/
 .mobile-menu {
   display:block;
@@ -503,8 +504,10 @@ line-height: 1.6em;
 font-weight: 400;
 width:100%;
 text-align:center;
-	position: relative;
-  margin:0 auto;
+position: relative;
+margin:3px auto;
+  
+ 
 }
 
 .mobile-menu ul {
@@ -514,15 +517,14 @@ text-align:center;
   text-align:center;
   width:100%;
   position: absolute;
-  background: #211f1a;
+  background: #dab454;
 }
-
 
 /*Create a horizontal list with spacing*/
 .mobile-menu li {
 	display:inline-block;
-	float: left;
-	margin-right: 1px;
+	/*float: left;
+	margin-right: 1px;*/
 }
 
 /*Style for menu links*/
@@ -533,7 +535,7 @@ text-align:center;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: rgb(255, 255, 255);
   text-transform:uppercase;
-	background:#211f1a;
+	background:#ac8d3f;
 	text-decoration: none;
   
   padding: 10px 0;  
@@ -552,7 +554,7 @@ transition: all 0.4s ease 0s;
 
 /*Style for dropdown links*/
 .mobile-menu li:hover ul a {
-	background: #f3f3f3;
+	background: #ae2929;
 	color: #0e0e0e;
 	height: 40px;
 	line-height: 40px;
@@ -580,6 +582,7 @@ transition: all 0.4s ease 0s;
 	min-width: 100px;
 	padding: 0 20px;
 }
+
 
 
 /*Style 'show menu' label button and hide it by default*/
