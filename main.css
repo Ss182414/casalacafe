@@ -643,7 +643,40 @@ transition: all 0.4s ease 0s;
 
 
 
+/*Responsive Styles for meny*/
 
+@media screen and (max-width : 800px){
+  .mobile-menu .lines {
+    border-bottom: 10px double #fafafa; 
+    border-top: 5px solid #ffffff; 
+    content:"";
+    height: 20px; 
+    width:10px;
+    padding-right:15px;
+  float: right;
+}
+	/*Make dropdown links appear inline*/
+	.mobile-menu ul {
+    position: static;
+    display:none;
+    background: rgb(238, 236, 236);
+   
+	
+	}
+	/*Create vertical spacing*/
+	.mobile-menu li {
+    margin-bottom: 0px;
+    padding:2px;
+	}
+	/*Make all menu links full width*/
+	.mobile-menu ul li, .mobile-menu li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.mobile-menu .show-menu {
+		display:block;
+	}
+}
 	
 
 
