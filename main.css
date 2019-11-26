@@ -335,6 +335,7 @@ td, th{
     grid-template-columns: repeat(1,1fr);
     background:rgb(215, 213, 213);
     padding:3rem;
+    margin-top:30px;
     text-align: left;
 }
 
