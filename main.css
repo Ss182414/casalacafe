@@ -502,6 +502,65 @@ td, th{
 
 /*Media queries*/
 
+
+
+/* Små enheter, surfplattor */
+@media only screen and (max-width: 768px) {
+	
+	 #wrapper {
+    width: 100%;
+  }
+  #content {
+    width: 100%;
+  }
+   
+  #side {
+    width: 100%;
+  }
+   
+  #header {
+    width: 100%;
+  }
+ 
+  .entrybody {
+        font-size: 14px;
+  } 
+}
+	
+	
+   
+
+ 
+/* Extra små enheter, mobiltelefoner */
+@media only screen and (max-width: 480px) {
+	
+	 #wrapper {
+    width: 100%;
+  }
+  #content {
+    width: 100%;
+  }
+   
+  #side {
+    width: 100%;
+  }
+   
+  #header {
+    width: 100%;
+  }
+ 
+  .entrybody {
+        font-size: 14px;
+  } 
+
+   
+}
+
+
+
+
+
+/* 
 @media (max-width: 700px){
 .top-container{
 grid-template-areas:
@@ -602,7 +661,7 @@ min-height: auto;
 	
 }
 
-
+*/
 
 
 
