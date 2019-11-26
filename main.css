@@ -518,11 +518,11 @@ text-align:center;
 }
 
 
-*Create a horizontal list with spacing*/
+/*Create a horizontal list with spacing*/
 .mobile-menu li {
 	display:inline-block;
-	/*float: left;
-	margin-right: 1px;*/
+	float: left;
+	margin-right: 1px;
 }
 
 /*Style for menu links*/
