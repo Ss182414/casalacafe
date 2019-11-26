@@ -645,7 +645,7 @@ transition: all 0.4s ease 0s;
 
 /*Responsive Styles for meny*/
 
-@media screen and (max-width : 800px){
+@media only screen and (max-width : 800px){
   .mobile-menu .lines {
     border-bottom: 10px double #fafafa; 
     border-top: 5px solid #ffffff; 
