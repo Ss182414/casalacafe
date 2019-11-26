@@ -517,7 +517,7 @@ margin:3px auto;
   text-align:center;
   width:100%;
   position: absolute;
-  background: #dab454;
+  background: #211f1a;
 }
 
 /*Create a horizontal list with spacing*/
@@ -535,7 +535,7 @@ margin:3px auto;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: rgb(255, 255, 255);
   text-transform:uppercase;
-	background:#ac8d3f;
+	background:#211f1a;
 	text-decoration: none;
   
   padding: 10px 0;  
