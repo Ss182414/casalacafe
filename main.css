@@ -490,10 +490,13 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
   font-size:16px;
 }
+
+
+/*mobil meny*/
 .mobile-menu {
   display:block;
   width:100%;
-background: #8aa8bd/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
+background: #211f1a;
 line-height: 1.6em;
 font-weight: 400;
 width:100%;
@@ -501,7 +504,7 @@ text-align:center;
 	position: relative;
   margin:0 auto;
 }
-/*Strip the ul of padding and list styling*/
+
 .mobile-menu ul {
 	list-style-type:none;
   margin: 0 auto;
@@ -509,7 +512,7 @@ text-align:center;
   text-align:center;
   width:100%;
   position: absolute;
-  background: #8aa8bd;
+  background: #211f1a;
 }
 
 /*Create a horizontal list with spacing*/
