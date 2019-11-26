@@ -216,27 +216,6 @@ img{
     justify-content: center;
 }
 
-.main-nav ul{
-    display:grid;
-    grid-gap:50px;
-    padding:0;
-    list-style:none;
-    grid-template-columns: repeat(4,1fr);
-}
-
-.main-nav a{
-display:block;
-text-decoration: none;
-padding:1.3rem; 
-text-align: center;
-color:rgb(255, 255, 255);
-font-size: 1.2em;
-}
-
-.main-nav a:hover{
-background:rgb(103, 101, 101);
-color:#fff;
-}
 
 
 
@@ -522,34 +501,6 @@ font-size:3.5rem;
  font-size:1.5rem;
 }
 
-
-.main-nav a{
-    display:block;
-    border-width: 50px;
-    border: solid grey;
-    text-decoration: none;
-    padding: 1em 2em; 
-    text-align: center;
-    color:rgb(255, 255, 255);
-    font-size: 1rem;
-    min-width: 100px;
-
-}
-
-.main-nav{
-border:none;
-background:none;              
-}
-
- /*nav knappar får egen bakgrunf*/
- .main-nav a{
-background:rgb(38, 29, 29);
-}
-
-.main-nav ul{
-grid-template-columns: 1fr;
-}
-    
 .info{
 grid-template-columns: 1fr;
 }
