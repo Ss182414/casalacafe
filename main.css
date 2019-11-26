@@ -515,7 +515,8 @@ text-align:center;
   background: #211f1a;
 }
 
-/*Create a horizontal list with spacing*/
+
+*Create a horizontal list with spacing*/
 .mobile-menu li {
 	display:inline-block;
 	/*float: left;
@@ -528,11 +529,11 @@ text-align:center;
 	min-width:140px;
 	text-align: center;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #fff;
+	color: rgb(255, 255, 255);
   text-transform:uppercase;
-	background: #8aa8bd;
+	background:#211f1a;
 	text-decoration: none;
-  margin-left:-5px;
+  
   padding: 10px 0;  
 -webkit-transition: all 0.4s ease 0s;
 -moz-transition: all 0.4s ease 0s;
@@ -543,21 +544,21 @@ transition: all 0.4s ease 0s;
 
 /*Hover state for top level links*/
 .mobile-menu li:hover a {
-	color: #4db3ff;
-  background-color:#ccddee;
+	color: #8e8e8e;
+  background-color:#f4f4f4;
 }
 
 /*Style for dropdown links*/
 .mobile-menu li:hover ul a {
 	background: #f3f3f3;
-	color: #2f3036;
+	color: #0e0e0e;
 	height: 40px;
 	line-height: 40px;
 }
 
 /*Hover state for dropdown links*/
 .mobile-menu li:hover .mobile-menu ul a:hover {
-	color: #4db3ff;
+	color: #fefefe;
 }
 
 /*Hide dropdown links until they are needed*/
@@ -583,7 +584,7 @@ transition: all 0.4s ease 0s;
 .mobile-menu .show-menu {
 	text-decoration: none;
 	color: #fff;
-	background: #8aa8bd;
+	background:#211f1a;
 	text-align: center;
 	padding: 10px 15px;
 	display: none;
@@ -592,7 +593,7 @@ transition: all 0.4s ease 0s;
 }
 
 .mobile-menu .show-menu span{
-   padding-left: 25px;
+   padding-left: 10px;
 }
 
 /*Hide checkbox*/
@@ -604,6 +605,7 @@ transition: all 0.4s ease 0s;
 .mobile-menu input[type=checkbox]:checked ~ #menu{
     display: block;
 }
+
 
 /*Responsive Styles*/
 
