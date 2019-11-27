@@ -668,6 +668,7 @@ transition: all 0.4s ease 0s;
 .top-container{
 grid-template-areas:
 'head-section head-section';
+margin-left: 20px;
 }
 
 
@@ -699,7 +700,8 @@ font-size: 11px;
 
 .top-container-kaffe{
  grid-template-areas:
-'head-section-kaffe head-section-kaffe'
+'head-section-kaffe head-section-kaffe';
+ margin-left: 20px;
  }
      
 .head-section-kaffe h1{
@@ -710,6 +712,28 @@ font-size:3.5rem;
   .main-info-bokabord h1{
  font-size: 20px;
 }
+
+body{
+    background:green;
+    margin:0px;
+    margin-top:20px;
+  }
+
+  .fa {
+    padding:5px;
+      float: right;
+      margin-right:10px;
+      position: relative;
+      top:40px;
+      border-radius:80%;
+      
+    }
+
+}
+	
+	
+	
+	
 
 /*OMOSS*/
 .head-section-omoss{
@@ -725,7 +749,7 @@ min-height: auto;
 {
     .top-container{
    grid-template-areas:
-   'head-section head-section';
+   'head-section';
     }
 .head-section-index{
  min-width: 130px; 
