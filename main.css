@@ -701,7 +701,7 @@ font-size: 11px;
 .top-container-kaffe{
  grid-template-areas:
 'head-section-kaffe head-section-kaffe';
- margin-left: 20px;
+ 
  }
      
 .head-section-kaffe h1{
@@ -714,7 +714,7 @@ font-size:3.5rem;
 }
 
 body{
-    background:green;
+   
     margin:0px;
     margin-top:20px;
   }
