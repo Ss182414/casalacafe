@@ -628,9 +628,9 @@ transition: all 0.4s ease 0s;
     border-top: 5px solid #ffffff; 
     content:"";
     height: 20px; 
-    width:10px;
+    width:30%;
     padding-right:15px;
-  float: right;
+  float: left;
 }
 	/*Make dropdown links appear inline*/
 	.mobile-menu ul {
