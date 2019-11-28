@@ -229,7 +229,7 @@ img{
 .head-section-index{
   grid-area: head-section;
   min-height: 400px; 
-  background: url("casalacafe/indexbild.jpg");
+  background: url("https://github.com/Ss182414/casalacafe/blob/master/indexbild.jpg");
   box-shadow:0 1px 5px rgb(104,104.104,0.8);
   background-size: cover;
   background-position: center;
