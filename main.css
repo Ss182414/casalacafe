@@ -669,6 +669,7 @@ transition: all 0.4s ease 0s;
 grid-template-areas:
 'head-section head-section';
 margin-left: 20px;
+margin-right: 20px;
 }
 
 
@@ -701,6 +702,7 @@ font-size: 11px;
 .top-container-kaffe{
  grid-template-areas:
 'head-section-kaffe head-section-kaffe';
+
  
  }
      
@@ -715,7 +717,7 @@ font-size:3.5rem;
 
 body{
    
-    margin:0px;
+    margin:2px;
     margin-top:20px;
   }
 
@@ -730,9 +732,7 @@ body{
     }
 
 }
-	
-	
-	
+		
 	
 
 /*OMOSS*/
