@@ -691,14 +691,6 @@ text-align: center;
 margin:auto;
 }
 
-#telefon{
-font-size: 11px;
-}
-
-#mail{
- font-size: 11px;
-}
-
 .top-container-kaffe{
  grid-template-areas:
 'head-section-kaffe head-section-kaffe';
