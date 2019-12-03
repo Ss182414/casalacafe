@@ -521,14 +521,6 @@ margin-top:30px;
     text-align: center;
 }
 
-
-}
-
-
-{
-  margin:0;
-  padding:0;
-}
 body {
 	font-family: Helvetica, Arial, sans-serif;
   font-size:16px;
@@ -759,11 +751,6 @@ body{
 
 }
 		
-.head-section-omoss{
-min-height: auto;
-}
-
-}
     
 
 @media only screen and (max-width: 480px) 
@@ -989,7 +976,7 @@ min-height: auto;
     page-break-after: avoid;
   }
 }
-
+	}
 
 
 
