@@ -316,7 +316,6 @@ color:rgb(255, 255, 255);
   padding: 20px 0px 5px 0px;
   color: white;
   font-weight: normal;
-  letter-spacing: 0.20em;
 }
 .footer .col ul {
   list-style-type: none;
@@ -358,45 +357,7 @@ color:rgb(255, 255, 255);
 .clearfix {
   clear: both;
 }
-@media only screen and (min-width: 1280px) {
-  .contain {
-    width: 1200px;
-    margin: 0 auto;
-  }
-}
-@media only screen and (max-width: 1139px) {
-  .contain .social {
-    width: 1000px;
-    display: block;
-  }
-}
-@media only screen and (max-width: 950px) {
-  .footer .col {
-    width: 33%;
-  }
-  .footer .col h1 {
-    font-size: 14px;
-  }
-  .footer .col ul li a {
-    font-size: 13px;
-  }
-}
-@media only screen and (max-width: 500px) {
-    .footer .col {
-      width: 50%;
-    }
-    .footer .col h1 {
-      font-size: 14px;
-    }
-    .footer .col ul li {
-      font-size: 13px;
-    }
-}
-@media only screen and (max-width: 340px) {
-  .footer .col {
-    width: 100%;
-  }
-}
+
 
 
   
@@ -731,10 +692,6 @@ transition: all 0.4s ease 0s;
 		display:block;
 	}
 }
-	
-
-
-
 
 
 
@@ -802,17 +759,12 @@ body{
 
 }
 		
-	
-
-/*OMOSS*/
 .head-section-omoss{
 min-height: auto;
 }
 
 }
     
-
-/*Media queries*/
 
 @media only screen and (max-width: 480px) 
 {
@@ -827,6 +779,46 @@ min-height: auto;
      
     }
 	
+	
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li a {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
 	
 
 
@@ -923,16 +915,6 @@ min-height: auto;
 
 .clearfix:after {
   clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
