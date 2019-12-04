@@ -514,7 +514,6 @@ margin-top:30px;
     grid-gap:30px;
     grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
     background:rgb(215, 213, 213);
-    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     padding:3rem;
 }
 
@@ -718,15 +717,15 @@ body{
       border-radius:80%;
       
     }
-	.infokaffe{
-		margin:10px;
+.infokaffe{
+	margin:20px;
 	}
-	.info-omoss{
-		margin:10px;
+.info-omoss{
+	margin:10px;
 	}
 	
-	.info-omoss2{
-		margin:10px;
+.info-omoss2{
+	margin:10px;
 	}
 	
 	.mobile-menu .lines {
