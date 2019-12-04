@@ -654,38 +654,6 @@ transition: all 0.4s ease 0s;
 
 /*Responsive Styles for meny*/
 
-@media only screen and (max-width : 700px){
-  .mobile-menu .lines {
-    border-bottom: 10px double #fafafa; 
-    border-top: 5px solid #ffffff; 
-    content:"";
-    height: 20px; 
-    width:20%;
-    padding-right:15px;
-  float: left;
-}
-	/*Make dropdown links appear inline*/
-	.mobile-menu ul {
-    position: static;
-    display:none;
-    background: rgb(238, 236, 236);
-   
-	
-	}
-	/*Create vertical spacing*/
-	.mobile-menu li {
-    margin-bottom: 0px;
-    padding:2px;
-	}
-	/*Make all menu links full width*/
-	.mobile-menu ul li, .mobile-menu li a {
-		width: 100%;
-	}
-	/*Display 'show menu' link*/
-	.mobile-menu .show-menu {
-		display:block;
-	}
-}
 
 
 
@@ -761,11 +729,40 @@ body{
 		margin:10px;
 	}
 	
+	.mobile-menu .lines {
+    border-bottom: 10px double #fafafa; 
+    border-top: 5px solid #ffffff; 
+    content:"";
+    height: 20px; 
+    width:20%;
+    padding-right:15px;
+  float: left;
+}
+	/*Make dropdown links appear inline*/
+	.mobile-menu ul {
+    position: static;
+    display:none;
+    background: rgb(238, 236, 236);
+   
+	
+	}
+	/*Create vertical spacing*/
+	.mobile-menu li {
+    margin-bottom: 0px;
+    padding:2px;
+	}
+	/*Make all menu links full width*/
+	.mobile-menu ul li, .mobile-menu li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.mobile-menu .show-menu {
+		display:block;
+	}
 
 
 }
 		
-    
 
 @media only screen and (max-width: 480px) 
 {
@@ -825,9 +822,25 @@ font-size:1.5rem;
   }
 }
 	
+	
+@media only screen and (max-width: 200px) {
+.fa {
+    padding:5px;
+      float: right;
+      margin-right:10px;
+	padding:30px;
+      position: relative;
+      top:40px;
+      border-radius:80%;
+      
+    }
 
+ 
+ 
+}	
+	
 
-
+ 
 
 
 
