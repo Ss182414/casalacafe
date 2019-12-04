@@ -168,6 +168,7 @@ Options -MultiViews
     AddType application/manifest+json                   webmanifest
     AddType application/x-web-app-manifest+json         webapp
     AddType text/cache-manifest                         appcache
+    AddType myStyle.manifest                            manifest
 
 
   # Media files
