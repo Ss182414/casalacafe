@@ -190,6 +190,7 @@ img{
 
 /*icons*/
 .fa {
+ display:block; 
   padding:10px;
     font-size: 15px;
     width: 30px;
@@ -197,9 +198,9 @@ img{
     text-decoration: none;
     float: right;
     margin-right:10px;
-    position: absolute;
+    position: relative;
     top:2px;
-    border-radius:80%;
+    border-radius:90%;
     background: #ccc;
     color: rgb(57, 57, 57);  
   }
