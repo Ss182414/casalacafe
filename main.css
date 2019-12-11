@@ -190,23 +190,10 @@ img{
 
 /*icons*/
 .fa {
- /*display:block; 
-  padding:10px;
-    font-size: 15px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    float: right;
-    margin-right:10px;
-    position: relative;
-    top:2px;
-    border-radius:90%;
-    background: #ccc;
-    color: rgb(57, 57, 57);*/
     position: relative;
     float: right;
     padding:10px;
-    margin-right:10px;
+    margin-right:20px;
     font-size: 20px;
     width: 10px;
     text-align: center;
