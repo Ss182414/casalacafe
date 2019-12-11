@@ -205,6 +205,7 @@ img{
     color: rgb(57, 57, 57);*/
     position: relative;
     float: right;
+    padding:10px;
     margin-right:10px;
     font-size: 20px;
     width: 10px;
