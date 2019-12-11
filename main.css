@@ -391,6 +391,7 @@ color:rgb(255, 255, 255);
     color:black;
     grid-gap:30px;
     grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     background:rgb(215, 213, 213);
     padding:3rem;
 }
