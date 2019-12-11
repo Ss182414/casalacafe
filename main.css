@@ -190,7 +190,7 @@ img{
 
 /*icons*/
 .fa {
- display:block; 
+ /*display:block; 
   padding:10px;
     font-size: 15px;
     width: 30px;
@@ -202,7 +202,15 @@ img{
     top:2px;
     border-radius:90%;
     background: #ccc;
-    color: rgb(57, 57, 57);  
+    color: rgb(57, 57, 57);*/
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: rgb(57, 57, 57)
   }
   
   .fa:hover {
