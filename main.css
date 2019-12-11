@@ -823,8 +823,9 @@ font-size:1.5rem;
 	
 	
 @media only screen and (max-width: 280px) {
-.fa {
-    display: inline-flex;
+fa {
+    display: block;
+	float:none;
 	
       
       
