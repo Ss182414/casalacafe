@@ -203,16 +203,14 @@ img{
     border-radius:90%;
     background: #ccc;
     color: rgb(57, 57, 57);*/
-    padding: 20px;
     position: relative;
     float: right;
     margin-right:10px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 20px;
+    width: 10px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
     color: rgb(57, 57, 57)
   }
   
