@@ -204,6 +204,9 @@ img{
     background: #ccc;
     color: rgb(57, 57, 57);*/
     padding: 20px;
+    position: relative;
+    float: right;
+    margin-right:10px;
     font-size: 30px;
     width: 30px;
     text-align: center;
